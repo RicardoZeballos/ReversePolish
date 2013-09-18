@@ -15,7 +15,7 @@ while(true)
   print ">"
   input = gets.chomp
   if(input == "q")
-    puts "Goodbye"  
+    puts "Goodbye"
     break
   elsif(input.is_numeric?)
     stack.push(input.to_f)
@@ -27,5 +27,5 @@ while(true)
   else
     puts "Error: Not enough numbers left or not valid input."
   end
-  puts stack.last 
+  puts stack.last
 end
